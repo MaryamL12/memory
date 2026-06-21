@@ -1,0 +1,121 @@
+/*tiles*/
+.tile-grid {
+  display: grid;
+  gap: 12px;
+  max-width: 520px;
+}
+
+.tile {
+  aspect-ratio: 1 / 1;
+  border: none;
+  border-radius: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2c0a71;
+  cursor: pointer;
+  outline: 3px solid transparent;
+  transition: transform 0.12s, box-shadow 0.12s, filter 0.15s;
+  user-select: none;
+}
+
+.tile.light-text {
+  color: #ffffff;
+}
+
+.tile.watching {
+  cursor: default;
+  pointer-events: none;
+}
+
+.tile.lit {
+  transform: scale(1.12) translateY(-4px);
+  outline: 4px solid #ffffff;
+  outline-offset: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.tile.active {
+  transform: scale(0.92);
+}
+
+.tile.game-over {
+  filter: brightness(0.35);
+  cursor: default;
+  pointer-events: none;
+}
+
+/*Message*/
+.status-box {
+  background-color: #3d1a8a;
+  border-radius: 14px;
+  min-height: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #c2cdff;
+  line-height: 1.6;
+}
+
+/*Round*/
+.round-panel {
+  background-color: #996cde;
+  border-radius: 14px;
+}
+
+.round-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.round-number {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+/*Feedback*/
+.feedback-btn {
+  border: none;
+  border-radius: 14px;
+  min-height: 90px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.feedback-btn.correct {
+  background-color: #7ed957;
+  color: #1a4a00;
+}
+
+.feedback-btn.wrong {
+  background-color: #e05252;
+  color: #ffffff;
+}
+
+.feedback-btn.correct:hover, .feedback-btn.wrong:hover {
+  background-color: #996cde;
+  color: #ffffff;
+}
+
+/* Back to settings*/
+.back-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #c2cdff;
+  background-color: transparent;
+  border: 2px solid #c2cdff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.back-btn:hover {
+  background-color: #c2cdff;
+  color: #2c0a71;
+}

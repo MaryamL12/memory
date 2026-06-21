@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Montserrat:wght@400;600;700;800&display=swap');
+
+body {
+  background-color: #2c0a71;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+}
+
+.page {
+  background-color: #2c0a71;
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.page-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c2cdff;
+}
+
+/*Stats*/
+.stat-pill {
+  border: 2px solid #c2cdff;
+  border-radius: 12px;
+}
+
+.stat-pill-label {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #c2cdff;
+}
+
+.stat-pill-value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}

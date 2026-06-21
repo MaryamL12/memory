@@ -1,0 +1,70 @@
+.panel {
+  background-color: #3d1a8a;
+  border-radius: 16px;
+}
+
+/*Titles*/
+.section-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #c2cdff;
+}
+
+.how-to-play-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/*How to play*/
+.how-to-play-list li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/*Settings*/
+.option-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2c0a71;
+  background-color: #c2cdff;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.option-btn:hover {
+  border-color: #996cde;
+}
+
+.option-btn.selected {
+  background-color: #996cde;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+/*Play*/
+.play-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #2c0a71;
+  background-color: #c2cdff;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.play-btn:hover {
+  background-color: #996cde;
+  color: #ffffff;
+}
