@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import '../styles/Shared.css';
 import '../styles/Settings.css';
 
-const GRID_OPTIONS   = [{ label: '2 x 2', value: '2x2' }, { label: '3 x 3', value: '3x3' }, { label: '4 x 4', value: '4x4' }];
-const SPEED_OPTIONS  = [{ label: 'Slow',  value: 'slow' }, { label: 'Normal', value: 'normal' }, { label: 'Fast', value: 'fast' }];
+const GRID_OPTIONS = [{ label: '2 x 2', value: '2x2' }, { label: '3 x 3', value: '3x3' }, { label: '4 x 4', value: '4x4' }];
+const SPEED_OPTIONS = [{ label: 'Slow', value: 'slow' }, { label: 'Normal', value: 'normal' }, { label: 'Fast', value: 'fast' }];
 const COLOUR_OPTIONS = [{ label: 'Pastel', value: 'pastel' }, { label: 'Bright', value: 'bright' }, { label: 'Dark', value: 'dark' }];
 
 function OptionBtn({ label, selected, onClick }) {

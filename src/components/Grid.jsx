@@ -33,8 +33,8 @@ const PALETTES = {
 
 const SPEED = {
   slow: { on: 1000, off: 500 },
-  normal: { on: 700,  off: 300 },
-  fast: { on: 400,  off: 150 },
+  normal: { on: 700, off: 300 },
+  fast: { on: 400, off: 150 },
 };
 
 function wait(ms) {
@@ -166,10 +166,10 @@ export default function Grid({ settings, round, sequence, feedback, onTileSelect
               {tiles.map((tile, i) => {
 
                 let tileClass = 'tile';
-                if (phase === 'watching')       tileClass += ' watching';
-                if (i === litIndex)             tileClass += ' lit';
-                if (i === activeIndex)          tileClass += ' active';
-                if (feedback === 'wrong')       tileClass += ' game-over';
+                if (phase === 'watching') tileClass += ' watching';
+                if (i === litIndex) tileClass += ' lit';
+                if (i === activeIndex) tileClass += ' active';
+                if (feedback === 'wrong') tileClass += ' game-over';
                 if (settings.colours === 'dark') tileClass += ' light-text';
 
                 return (
@@ -204,7 +204,6 @@ export default function Grid({ settings, round, sequence, feedback, onTileSelect
             >
               ← Back to Settings (Esc)
             </button>
-
           </div>
         </div>
       </div>
